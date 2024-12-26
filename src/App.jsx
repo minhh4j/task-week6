@@ -4,6 +4,7 @@ import HomePage from "./component/HomePage";
 import Products from "./component/Products";
 import ProducInfo from "./component/ProducInfo";
 import Context from "./component/Context";
+import "./App.css";
 
 function App() {
   return (

@@ -1,0 +1,63 @@
+th{
+    border: 1px solid black;
+    background-color: gray;
+}
+thead{
+    text-align: center;
+    border: 1px solid black;
+    padding: 1px;
+    
+}
+tbody{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+tr:hover{
+    color: rgb(70, 12, 231);
+
+}
+td{
+    text-align: center;
+    border: 1px solid black;
+    padding: 1px;
+}
+#table{
+    text-shadow: 30px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    padding: 5px;
+    background-color: #f0f0f0;
+    box-shadow: inset 5px 5px 10px rgba(72, 89, 202, 0.2);
+    box-shadow: 10px 10px 20px rgba(89, 50, 166, 0.1);
+    box-shadow: 5px 5px 15px rgba(81, 48, 226, 0.3), -5px -5px 15px rgba(52, 52, 182, 0.3)
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    background-color: #f0f0f0;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#heading {
+    /* position: relative; */
+    animation: animations 1s ease-in-out infinite;
+}
+
+@keyframes animations {
+    from {
+        left: 0%;
+        color: rgb(255, 0, 0);
+    }
+    to {
+        left: 100%;
+        color: rgb(0, 26, 255);
+    }
+}
