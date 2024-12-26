@@ -42,8 +42,7 @@ table{
 img {
     height: 100px;
     width: 100px;
-    background-color: #f0f0f0;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: #dad2d2;
 }
 
 #heading {
